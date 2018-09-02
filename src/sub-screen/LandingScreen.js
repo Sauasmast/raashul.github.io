@@ -16,16 +16,20 @@ class LandingScreen extends Component {
           <IntroText color={theme.color}>
             I'm <b> Rashul Rajbhandari </b>,
             <br/>  <br/>
-            I am passionately curious in software engineering.
+            a passionately curious kid in software engineering.
 
             <br/>  <br/>
-            I like to write code.
-
+            I love to learn, create and explore new ideas.
           </IntroText>
       </div>
 
+       <br/> <br/> <br/>
+      <Text color={theme.color} size='16px'>
+        Work Mantra- <b>"If you are the smartest person in the room, then you are in the wrong room" </b>
+      </Text>
+
         <div style={{marginTop: '90px'}}>
-          <Text color={theme.color}>
+          <Text color={theme.color}  size='16px'>
             <a href="https://twitter.com/Rashul_Cfc/status/507176268232544256" target="_blank" className='main-image-header'>"Whoever you are, wherever you are, you only have to know one thing:<u> #YouCanLearnAnything</u> " </a>
           </Text>
         </div>
