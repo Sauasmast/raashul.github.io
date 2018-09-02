@@ -1,7 +1,10 @@
 {
-  "main.css": "static/css/main.c17080f1.css",
-  "main.css.map": "static/css/main.c17080f1.css.map",
-  "main.js": "static/js/main.faab70b3.js",
-  "main.js.map": "static/js/main.faab70b3.js.map",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "main.css": "static/css/main.68a02c3e.css",
+  "main.css.map": "static/css/main.68a02c3e.css.map",
+  "main.js": "static/js/main.d85956ba.js",
+  "main.js.map": "static/js/main.d85956ba.js.map",
+  "static/media/cougarbot.png": "static/media/cougarbot.de3b5ea7.png",
+  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg",
+  "static/media/restaurant.jpg": "static/media/restaurant.db8a3685.jpg",
+  "static/media/twitterbot.jpg": "static/media/twitterbot.f2df5267.jpg"
 }
