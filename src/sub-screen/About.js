@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { IntroText, Text } from '../components'
+import { IntroText, Text, LineSeparator } from '../components'
 import {Grid, Row, Col} from 'react-bootstrap';
 import {backgroundText} from '../utils';
 
@@ -13,7 +13,7 @@ class About extends Component {
       const {theme} = this.props;
 
     return (
-      <div className ='container' style={{marginTop:'20px'}}>
+      <div className ='container' style={{marginTop:'60px'}}>
         <center><IntroText color={theme.color}>BACKGROUND</IntroText> </center>
 
         <Grid style={{marginTop: '20px'}}>
@@ -24,8 +24,8 @@ class About extends Component {
                   style={{
                     borderRadius: '50%',
                     backgroundImage: `url('https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/22154188_10213089248773523_250024450187102609_n.jpg?_nc_cat=0&oh=406cf8adc31868381b9c69ec3b3737e1&oe=5BF64370')`,
-                    height:'250px',
-                    width:'250px',
+                    height:'270px',
+                    width:'270px',
                     backgroundSize: '100% 100%'
                   }}
                   >
@@ -33,10 +33,10 @@ class About extends Component {
               </center>
               </Col>
               <Col  md={6} mdPull={6}>
-                <Text color={theme.color} size='17px'>I'm currently a senior at <b> Caldwell University </b> majoring in Computer Information System and minoring in Mathmatics</Text>
+                <Text color={theme.color} size='17px'>I'm currently a senior at <b> <u> Caldwell University  </u></b> majoring in Computer Information System and minoring in Mathmatics</Text>
                 <br /> <br />
                 <Text color={theme.color} size='17px'>
-                  Recently, I worked with <b> Yeti </b> to build a platform that enhances business and customer relation.
+                  Recently, I worked with <b> <u>Yeti</u> </b> to build a platform that enhances business and customer relation.
                   I was part of the core team that designed, developed and launched the Alpha 2.0 version of the platform
                   I used  React and Mobx for Alpha release which served 150 customers.
                   <br/>
@@ -58,6 +58,7 @@ class About extends Component {
             <i class="fab fa-twitter fa-2x" color={theme.color} ></i>
           </a>
         </div>
+
       </div>
     );
   }

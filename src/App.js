@@ -4,7 +4,7 @@ import Switch from "react-switch";
 
 
 import * as SubScreen from './sub-screen';
-import {SunnyTheme, DarkTheme} from './components';
+import {SunnyTheme, DarkTheme, LineSeparator} from './components';
 import './App.css';
 
 class App extends Component {
@@ -39,7 +39,7 @@ class App extends Component {
       <div className="main" style={{backgroundColor: current_theme.backgroundColor}}>
         <div className ='switch-container' style={{marginTop:'10px', float: 'right', marginRight: '5px'}}>
           <label htmlFor="normal-switch">
-              <span>&#x263C;</span>
+              <span style={{color: current_theme.color}}>&#x263C;</span>
               <Switch
                 onChange={this.handleChange}
                 checked={this.state.checked}
@@ -51,13 +51,13 @@ class App extends Component {
                 boxShadow="0px 1px 5px rgba(0, 0, 0, 0.6)"
                 activeBoxShadow="0px 0px 1px 10px rgba(0, 0, 0, 0.2)"
               />
-              <span>&#x263E;</span>
+              <span style={{color: current_theme.color}}>&#x263E;</span>
             </label>
         </div>
         {/* <SubScreen.ThemeSwitch theme={current_theme}/> */}
         <div style={{minHeight: '100vh'}}><SubScreen.LandingScreen theme={current_theme}/> </div>
+        <LineSeparator color={current_theme.color}/>
         <div style={{minHeight: '100vh'}}><SubScreen.About theme={current_theme}/> </div>
-
         <SubScreen.Projects theme={current_theme}/>
         <div style={{marginTop: '30px'}}><SubScreen.Footer theme={current_theme}/> </div>
       </div>

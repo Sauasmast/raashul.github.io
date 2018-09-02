@@ -11,7 +11,7 @@ class Footer extends Component{
     const {theme} = this.props;
 
     return(
-      <div className="footer" style= {{color: "white"}}>
+      <div className="footer" style= {{color: "white", marginTop: '60px'}}>
 
       	<p className="footer-text">
       	Rashul Rajbhandari © 2018. Handmade with <i className="fa fa-heart heart-icon" aria-hidden="true"></i> <br/> <br/>

@@ -33,3 +33,10 @@ a:hover{
   align-content:center;
   flex-direction:column;
 }
+
+
+.resume-link:hover{
+  border-bottom: 10px solid inherit;
+  display: inline-block;
+  line-height: 0.85;
+}
