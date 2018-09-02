@@ -1,28 +1,35 @@
-.App {
+a { color: inherit; }
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
+.hover_icons a{
+  margin-left: 20px;
+  color: #C5C5C5;
+}
+
+.hover_icons a:hover{
+  text-decoration: underline;
+}
+
+.heart-icon{
+  color:red;
+}
+
+.footer-text{
+  font-family: "Monaco", serif;
+  font-size:1.2em;
+  color: #57CB7C;
+  padding-top:15px;
+}
+
+.footer{
+  background-color: #262626;
+  height: 200px;
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
 }
