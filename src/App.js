@@ -20,7 +20,7 @@ class App extends Component {
 
   componentWillMount(){
     const currentTime = new Date().getHours();
-    if(currentTime > 19){
+    if(currentTime > 19 || currentTime < 4){
       this.setState({
           current_theme: DarkTheme,
           checked: true
